@@ -1,0 +1,24 @@
+
+	
+#P1 {color:RED; 
+	font-size:24px;} 
+		
+p.P2 {color:blue; 
+	  font-size:10px; 
+	  text-align:center;}
+		
+p.P2 {color:blue; 
+	  font-size:10px; 
+	  text-align:center;}
+	  
+input[type="text"] {
+ width: 150px;
+ display: block;
+ margin-bottom: 10px;
+ background-color: yellow;
+}
+input[type="button"] {
+ width: 120px;
+ margin-left: 35px;
+ 
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<teamdetails>
+ 
+ <team name="RCB">
+  <players>
+    <coach> Simon </coach>
+    <batsmen>  virat </batsmen>
+    <bowler> siraj </bowler>
+    <allrounder> maxwell </allrounder>   
+  </players>
+ </team>
+
+ <team name="CSK">
+  <players>
+     <coach> Stephen </coach>
+     <batsmen>  dhoni </batsmen>
+     <bowler> sharma </bowler>
+     <allrounder> raina </allrounder>  
+   </players>  
+ </team>
+
+ <team name="MI">
+  <players>
+     <coach> jayawardene </coach>
+     <batsmen>  rohit </batsmen>
+     <bowler> chahar </bowler>
+     <allrounder> hardik </allrounder>    
+  </players> 
+</team>
+
+</teamdetails>
+
+
+
+
+
+
+

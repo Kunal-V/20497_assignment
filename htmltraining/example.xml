@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<team>
+  
+  <coach>
+    <name> ravi </name>
+  <coach>
+  <batsmen>
+    <name> virat </name>
+    <name> dhoni </name>
+  </batsmen>
+  <bowler>
+     <name> siraj </name>
+     <name> sharma </name>
+  </bowler>
+  <allrounder>
+      <name> raina </name>
+  </allrounder>
+
+</team>
+
+<team>
+  
+  <coach>
+    <name> chris </name>
+  <coach>
+  <batsmen>
+    <name> root </name>
+    <name> morgan </name>
+  </batsmen>
+  <bowler>
+     <name> archer </name>
+     <name> woakes </name>
+  </bowler>
+  <allrounder>
+      <name> stokes </name>
+  </allrounder>
+
+</team>
+ 
