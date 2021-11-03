@@ -1,0 +1,36 @@
+package com.sonata.Main;
+
+import java.sql.SQLException;
+import java.util.List;
+import com.sonata.Dao.Patient;
+import com.sonata.DaoImpl.PatDaoImpl;
+
+
+public class TestBeanPatient {
+
+	public static void main(String[] args) throws SQLException {
+	Patient p1 = new Patient();
+	p1.setPat_id(100);
+	p1.setName("mohan");
+	p1.setAge(52);;
+	p1.setSex("M");;
+	p1.setEmail("mohan@123");
+	p1.setPhone_no(789654321);
+	p1.getBlood_group("A");
+	
+	PatDaoImpl dao = new PatDaoImpl();
+	int row = dao.save(p1);
+	System.out.println(row);
+	
+
+	List<Patient> list = dao.getData();
+	for(Patient p : list) {
+		System.out.println(p.getPat_id()));
+		System.out.println(p.getName());
+		System.out.println(p.);
+		System.out.println(p.getEmail());
+		System.out.println(p.getPhone_no());
+	}
+	} 
+
+}

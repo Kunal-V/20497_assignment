@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.DocDao"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.DocDaoImpl"/>
+    <fullyQualifiedTypeName name="com.sonata.DaoImpl.DbConnection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.DatabaseMetaData"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSetMetaData"/>
+    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.Doctor"/>
+    <fullyQualifiedTypeName name="com.sonata.DaoImpl.DocDaoImpl"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.PatDao"/>
+    <fullyQualifiedTypeName name="com.sonata.DaoImpl.PatDaoImpl"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.Patient"/>
+    <fullyQualifiedTypeName name="com.sonata.DaoImpl.SlotDaoImpl"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.Slot"/>
+    <fullyQualifiedTypeName name="com.sonata.Dao.Patientfeedback"/>
+    <fullyQualifiedTypeName name="com.sonata.DaoImpl.PatientfeedbackDaoImpl"/>
+</qualifiedTypeNameHistroy>

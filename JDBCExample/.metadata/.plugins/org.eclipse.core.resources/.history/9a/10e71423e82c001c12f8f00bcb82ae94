@@ -1,0 +1,22 @@
+package com.sonata.Main;
+
+import java.sql.SQLException;
+
+import com.sonata.DaoImpl.DocDaoImpl;
+
+public class TestBean {
+
+	public static void main(String[] args) throws SQLException {
+
+		Doctor.d1 = new Doctor();
+		d1.setDr_id(100);
+		d1.setname("abc");
+		d1.setdocage(2345.98);
+		
+		DocDaoImpl dao = new DocDAOImpl;
+		int row = dao.save(d1);
+		System.out.println(row);
+		
+	
+	
+	}

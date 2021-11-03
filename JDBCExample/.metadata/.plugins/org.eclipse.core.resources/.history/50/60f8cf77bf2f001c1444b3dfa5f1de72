@@ -1,0 +1,22 @@
+package com.sonata.Main;
+
+import java.sql.SQLException;
+
+
+public class TestBean {
+
+	public static void main(String[] args) throws SQLException {
+	Doctor d1 = new Doctor();
+	d1.setDr_id(10);
+	d1.setName("Kunal");
+	d1.setAge(10);
+	d1.setEmail("kunla@123");
+	d1.setSex("M");
+	d1.setPhone_no(4568797);
+	d1.setBlood_group("A");
+	
+	DocDaoImpl dao = new DocDaoImpl();
+		
+	}
+
+}
