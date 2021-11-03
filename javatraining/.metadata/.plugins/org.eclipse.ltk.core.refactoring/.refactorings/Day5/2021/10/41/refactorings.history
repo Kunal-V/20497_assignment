@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sonata.JavaStream.PridicateDemo&apos; to &apos;PredicateDemo&apos;&#x0D;&#x0A;- Original project: &apos;Day5&apos;&#x0D;&#x0A;- Original element: &apos;com.sonata.JavaStream.PridicateDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sonata.JavaStream.PredicateDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PridicateDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.sonata.JavaStream{PridicateDemo.java[PridicateDemo" matchStrategy="1" name="PredicateDemo" qualified="false" references="true" similarDeclarations="true" stamp="1633330259808" textual="false" version="1.0"/>
+</session>

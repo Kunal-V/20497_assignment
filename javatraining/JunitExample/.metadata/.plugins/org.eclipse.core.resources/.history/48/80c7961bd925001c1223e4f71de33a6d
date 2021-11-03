@@ -1,0 +1,9 @@
+package com.sonata.Assum;
+
+import static org.junit.Assert.*;
+import static org.junit.*;
+
+
+public class AssertionDemo {
+
+}
