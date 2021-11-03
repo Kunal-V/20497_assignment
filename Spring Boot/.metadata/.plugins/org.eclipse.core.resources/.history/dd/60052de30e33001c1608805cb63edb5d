@@ -1,0 +1,28 @@
+package com.springcore.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.springcore.CalculatorInterface;
+
+public class TestCalc implements CalculatorInterface {
+	@Autowired
+	CalculatorInterface Calculator;
+
+
+	public CalculatorInterface getCalculator() {
+		return Calculator;
+	}
+
+	public void setCalculator(CalculatorInterface calculator) {
+		Calculator = calculator;
+	}
+
+	@Override
+	public int calladd(int n1, int n2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	
+}

@@ -1,0 +1,19 @@
+package com.sonata.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+
+@Entity
+public class Disease {
+	@Id
+	long dis_Id;
+	String dis_Name;
+	
+	
+	
+	
+	
+}

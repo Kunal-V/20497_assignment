@@ -1,0 +1,20 @@
+package com.springcore;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+@SpringBootApplication
+public class SpringCoreApplication1 {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans1.xml");
+
+
+		CalculatorInterface test1 = (CalculatorInterface)ctx.getBean("testcalc");
+		System.out.println(test1.callCalulator(10 ,20));
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.sonata.Controller;
+
+import java.util.Map;
+import java.util.Optional;
+
+public class ProductController {
+
+	@RestController
+	// @CrossOrigin(origins = "http://localhost:4200")
+	// @RequestMapping("/api/v1")
+	public class ProductController {
+
+		Optional<Product> p1;
+
+		@Autowired
+		private ProductRepository prepository;
+
+		@GetMapping("/products")
+		public List<Product> getAllProducts() {
+			return prepository.findAll();// select * from employee
+		}
+	}
+
+}

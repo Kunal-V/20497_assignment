@@ -1,0 +1,14 @@
+package com.springcore;
+
+public interface usecalinterface {
+
+	public int useAdd(n1 , n2);
+	public int useMul(n1 , n2);
+	public int useDiv(n1 , n2);
+	public int useSub(n1 , n2);
+	
+	
+	
+	}
+
+	

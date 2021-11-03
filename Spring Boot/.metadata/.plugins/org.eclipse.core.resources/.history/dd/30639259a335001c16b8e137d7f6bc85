@@ -1,0 +1,8 @@
+package com.sonata.MyController;
+
+
+@Controller
+@RequestMapping("/helloworld")
+public class MyController {
+
+}

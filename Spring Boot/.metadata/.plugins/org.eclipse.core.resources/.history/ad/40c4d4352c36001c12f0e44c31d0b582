@@ -1,0 +1,13 @@
+package com.sonata.MyController;
+
+import org.springframework.boot.SpringApplication;
+
+@SpringBootApplication
+public class SpringBootFormHandlingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootFormHandlingApplication.class, args)
+
+	}
+
+}

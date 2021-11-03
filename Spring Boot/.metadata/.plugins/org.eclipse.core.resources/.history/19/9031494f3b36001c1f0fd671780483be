@@ -1,0 +1,10 @@
+package com.sonata.MyController;
+
+public class User1 {
+
+	private String email;
+	private String username;
+	private String password;
+	private String phoneno;
+	
+}

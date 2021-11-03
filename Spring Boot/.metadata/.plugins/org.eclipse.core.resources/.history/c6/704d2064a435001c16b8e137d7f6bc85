@@ -1,0 +1,22 @@
+package com.sonata.MyController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/helloworld")
+public class MyController {
+	
+	
+	@RequestMapping(value = "/sayspringcore", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld(Model model) {
+		model.addAttribute("message4", "Spring Core!");
+
+		return "mypage4";
+	}
+
+}

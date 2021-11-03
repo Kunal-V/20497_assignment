@@ -1,0 +1,8 @@
+package com.springcore;
+
+public interface CalculatorInterface {
+	public int calc(int add, int sub, int div, int mul);
+
+
+
+}

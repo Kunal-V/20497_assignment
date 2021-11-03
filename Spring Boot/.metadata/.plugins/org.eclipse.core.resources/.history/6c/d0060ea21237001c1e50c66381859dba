@@ -1,0 +1,53 @@
+package com.sonata.MyController;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import com.sonata.Model.Topic;
+
+@RestController
+public class TopicController {
+
+
+@Autowired
+private TopicService topicService;
+
+@RequestMapping("/show")
+public List<Topic> showTopics() {
+	return topicService.getTopic();
+}
+	
+	@RequestMapping("/topic/{id}")
+	public Topic getTopic(@PathVariable String id) {
+		return topicService.getSingleTopic(id);
+	}
+	
+	public Topic getSingleTopic(String id) {
+		return topics.stream().filter(t->t.getId().equals(id)).findFirst().get();
+		
+	}
+	
+	public void addTopic(Topic topic) {
+		topics.add(topic);
+	}
+	
+	public void updateTopic(String id,Topic topic) {
+		for(int i=0;i<topics.size();i++) {
+			Topic t = topics.get(i);
+			if(t.getId()equals(id)) {
+				topics.set(i,topic);
+				return;
+			}
+			
+		}
+	}
+
+	public void deleteTopic(String id, Topic topic) {
+		topics.removeIf(t->t.getId().equals(id));
+	}
+	}
+	
+	

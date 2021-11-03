@@ -1,0 +1,39 @@
+package com.sonata.employee.impl;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.stereotype.Service;
+import com.sonata.dbconnection.*;
+import com.sonata.employee.interfaces.*;
+import com.sonata.model.Employee;
+import com.sonata.employee.*;
+
+
+@Service
+public class EmployeeImpl implements EmployeeIntf {
+	
+	@Override
+	public List<Employee> getAllEmployee() {
+		List<Employee> emp = new ArrayList<>();
+		try {
+			DbConnection db =  new dbConnection();
+			PreparedStatement ps = db.getConnection().prepareStatement("select * from employee");
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Employee> getAllEmployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

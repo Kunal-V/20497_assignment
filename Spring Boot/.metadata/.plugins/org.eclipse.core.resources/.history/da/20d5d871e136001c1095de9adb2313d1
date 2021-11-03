@@ -1,0 +1,10 @@
+package com.sonata.employee.interfaces;
+
+public class EmployeeIntf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

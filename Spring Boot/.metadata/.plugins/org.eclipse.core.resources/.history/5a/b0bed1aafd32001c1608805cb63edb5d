@@ -1,0 +1,16 @@
+package com.springcore;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+@SpringBootApplication
+public class SpringcoreApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext ctx = SpringApplication.run(SpringcoreApplication.class, args);
+		TestInterface test = (TestInterface)ctx.getBean("test");
+		System.out.println(test.callGreeting("Ganesh"));
+	}
+
+}

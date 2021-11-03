@@ -1,0 +1,32 @@
+package com.sonata.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+
+@Entity
+public class Slot {
+@Id
+	long dr_Id;
+	long pat_Id;
+	long dis_Id;
+	String date;
+	String start_time;
+	String end_time;
+	long slot_Id;
+
+
+Slot() {}
+	
+	Slot(long d_id, long p_id , long dis_id, String date, String s_time, String e_time, long slot_id) {
+		this.dr_Id=
+		
+	}
+	
+
+
+
+
+}

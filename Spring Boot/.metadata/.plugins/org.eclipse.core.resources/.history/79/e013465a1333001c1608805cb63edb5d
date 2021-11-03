@@ -1,0 +1,13 @@
+package com.springcore;
+
+public interface usecalinterface {
+
+	public int useAdd(n1, n2)
+	{
+		int add = n1 -n2;
+		
+	
+	}
+
+	
+}

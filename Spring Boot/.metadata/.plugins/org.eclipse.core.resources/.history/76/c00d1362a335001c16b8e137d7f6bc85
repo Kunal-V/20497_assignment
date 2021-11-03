@@ -1,0 +1,18 @@
+package com.sonata.MyController;
+
+
+@Controller
+@RequestMapping("/helloworld")
+public class MyController {
+	
+	
+	@RequestMapping(value = "/sayspringcore", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld(Model model) {
+		model.addAttribute("message4", "Spring Core!");
+
+		return "mypage4";
+	}
+
+}

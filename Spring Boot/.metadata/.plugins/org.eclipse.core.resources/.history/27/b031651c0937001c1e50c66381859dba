@@ -1,0 +1,13 @@
+package com.sonata.Repository;
+
+
+
+import org.springframework.stereotype.Repository;
+import com.sonata.model.Product;
+
+
+@Repository
+public interface ProductRepository extends StudentRepository<Product, Long>{ 
+
+}
+

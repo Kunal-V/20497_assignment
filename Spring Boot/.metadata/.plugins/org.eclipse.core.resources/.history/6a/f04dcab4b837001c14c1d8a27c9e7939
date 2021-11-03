@@ -1,0 +1,43 @@
+package com.sonata.Controller;
+
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sonata.model.Patient_Feedback;
+import com.sonata.Repository.PatientFeedbackRepository;
+
+@RestController
+public class PatientFeedbackController {
+	
+Optional<Patient_Feedback> pf1;
+	
+	@Autowired
+	private PatientFeedbackRepository prepository2;
+	
+	@GetMapping("/patientfeedbacks")
+	public List<Patient_Feedback> getAllPatient_feedbacks() {
+		return prepository2.findAll();
+	}
+	
+	@GetMapping("/patientfeedbacks/{feed_id}")
+	public ResponseEntity getPatient_FeedbacksById(@PathVariable(value="feed_id") Long feedback_Id)
+	{
+		pf1 = prepository2.findById(feedback_Id);
+		return ResponseEntity.ok().body(pf1);
+	}
+	
+
+}

@@ -1,0 +1,34 @@
+package com.springcore.impl;
+
+import com.springcore.CalculatorInterface;
+
+public class Calculator implements CalculatorInterface {
+
+	@Override
+	public int calladd(int n1, int n2, int n3) {
+		// TODO Auto-generated method stub
+		return n3;
+	}
+
+	@Override
+	public int callmul(int n1, int n2, int n3) {
+		// TODO Auto-generated method stub
+		return n3;
+	}
+
+	@Override
+	public int calldiv(int n1, int n2, int n3) {
+		// TODO Auto-generated method stub
+		return n3;
+	}
+
+	@Override
+	public int callsub(int n1, int n2, int n3) {
+		// TODO Auto-generated method stub
+		return n3;
+	}
+
+	
+
+
+}

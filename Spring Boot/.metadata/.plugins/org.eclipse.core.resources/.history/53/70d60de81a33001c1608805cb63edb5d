@@ -1,0 +1,21 @@
+package com.springcore;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+@SpringBootApplication
+public class SpringCoreApplication1 {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans1.xml");
+		CalculatorInterface test1 = (CalculatorInterface)ctx.getBean("usecal");
+		System.out.println(test1.add(10, 20));
+		System.out.println(test1.mul(10, 20));
+		System.out.println(test1.div(10, 20));
+		System.out.println(test1.sub(10, 20));
+	}
+
+}

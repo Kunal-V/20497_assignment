@@ -1,0 +1,20 @@
+package com.springcore.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.springcore.GreetingInterface;
+import com.springcore.TestInterface;
+
+@Component
+public class Test implements TestInterface {
+	@Autowired
+	GreetingInterface greeting;
+	
+	@Override
+	public String callGreeting(String name) {
+		// TODO Auto-generated method stub
+		return greeting.sayGeeting(name);
+	}
+
+}

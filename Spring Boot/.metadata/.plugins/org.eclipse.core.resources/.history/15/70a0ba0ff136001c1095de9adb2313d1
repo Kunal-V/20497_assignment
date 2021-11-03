@@ -1,0 +1,40 @@
+package com.sonata.model;
+
+
+import javax.persistence.Entity;
+import javax.persistence.GenerateType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Product {
+
+	long pId;
+	String pName;
+	double pPrice;
+	
+	public long getpId() {
+		return pId;
+	}
+	public void setpId(long pId) {
+		this.pId = pId;
+	}
+	public String getpName() {
+		return pName;
+	}
+	public void setpName(String pName) {
+		this.pName = pName;
+	}
+	public double getpPrice() {
+		return pPrice;
+	}
+	public void setpPrice(double pPrice) {
+		this.pPrice = pPrice;
+	}
+	Product() {}
+	Product(long id, String name, double price) {
+		this.pId=id;
+		this.pName=name;
+		this.pPrice=price;
+	}
+}

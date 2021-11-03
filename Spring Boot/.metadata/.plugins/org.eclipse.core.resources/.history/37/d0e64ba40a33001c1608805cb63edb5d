@@ -1,0 +1,19 @@
+package com.springcore.impl;
+
+import com.springcore.CalculatorInterface;
+
+public class Calculator implements CalculatorInterface {
+
+	@Override
+	public int calc(int add, int sub, int div, int mul) {
+		// TODO Auto-generated method stub
+		return add ;
+	}
+
+	@Override
+	public char[] callCalc(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

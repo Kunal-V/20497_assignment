@@ -1,0 +1,7 @@
+127.0.0.1 - - [26/Oct/2021:12:52:28 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Oct/2021:12:52:29 +0530] "GET /MyTwoMVC/WEB-INF/classes/com/sonata/MyController/MvcController.java HTTP/1.1" 404 682
+127.0.0.1 - - [26/Oct/2021:12:53:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Oct/2021:12:53:37 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Oct/2021:12:53:37 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [26/Oct/2021:19:24:08 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/Oct/2021:19:24:09 +0530] "GET /Test/WEB-INF/classes/com/sonata/ServletInitializer.java HTTP/1.1" 404 682

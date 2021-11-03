@@ -1,0 +1,63 @@
+package com.sonata.MyController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping("/helloworld")
+public class MyController {
+	
+	
+	@RequestMapping(value = "/sayspringcore", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld(Model model) {
+		model.addAttribute("message4", "Spring Core!");
+
+		return "mypage4";
+		
+	}
+	
+	
+	@RequestMapping(value = "/sayspringcore1", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld1(Model model) {
+		model.addAttribute("message1", "Spring Core 1!");
+
+		return "mypage1";
+	}
+
+	
+	
+	@RequestMapping(value = "/sayspringcore2", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld2(Model model) {
+		model.addAttribute("message2", "Spring Core! 2");
+
+		return "mypage2";
+	}
+	
+	
+	@RequestMapping(value = "/sayspringcore3", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld3(Model model) {
+		model.addAttribute("message3", "Spring Core! 3");
+
+		return "mypage3";
+	}
+
+	@RequestMapping(value = "/sayspringcore4", method = RequestMethod.GET)
+	// Return type is String
+	// Receives Model type model object as argument
+	public String helloWorld4(Model model) {
+		model.addAttribute("message5", "Spring Core! 4");
+
+		return "mypage5";
+	
+}
+}

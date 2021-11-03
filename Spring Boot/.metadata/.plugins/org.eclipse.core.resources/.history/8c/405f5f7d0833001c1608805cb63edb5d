@@ -1,0 +1,17 @@
+package com.springcore.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.springcore.CalculatorInterface;
+
+public class TestCalc implements CalculatorInterface {
+	@Autowired
+	CalculatorInterface greeting;
+
+	@Override
+	public int calc(int add, int sub, int div, int mul) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
