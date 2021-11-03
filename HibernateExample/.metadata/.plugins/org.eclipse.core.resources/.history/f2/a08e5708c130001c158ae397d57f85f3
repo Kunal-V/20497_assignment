@@ -1,0 +1,12 @@
+package com.sonata;
+
+import org.hibernate.;i
+
+public class TestInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

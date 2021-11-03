@@ -1,0 +1,58 @@
+package com.sonata;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.SecondaryTable;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Customer")
+@SecondaryTable(name ="Customer_Details")
+public class Customer {
+	@Id
+	@GeneratedValue
+	private String custName;
+	@Column(table = "Customer_Details")
+	private String custAddress;
+	@Column(table = "Customer_Details")
+	private String creditScore;
+	@Column(table = "Customer_Details")
+	private String rewardPoint;
+	private int custId;
+	
+	public int getCustId() {
+		return custId;
+	}
+	public void setCustId(int custId) {
+		this.custId = custId;
+	}
+	public String getCustName() {
+		return custName;
+	}
+	public void setCustName(String custName) {
+		this.custName = custName;
+	}
+	public String getCustAddress() {
+		return custAddress;
+	}
+	public void setCustAddress(String custAddress) {
+		this.custAddress = custAddress;
+	}
+	public String getCreditScore() {
+		return creditScore;
+	}
+	public void setCreditScore(String creditScore) {
+		this.creditScore = creditScore;
+	}
+	public String getRewardPoint() {
+		return rewardPoint;
+	}
+	public void setRewardPoint(String rewardPoint) {
+		this.rewardPoint = rewardPoint;
+	}
+	
+	
+
+
+}

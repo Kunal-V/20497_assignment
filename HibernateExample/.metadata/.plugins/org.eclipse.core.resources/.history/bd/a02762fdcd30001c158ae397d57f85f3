@@ -1,0 +1,15 @@
+package com.sonata;
+
+import org.hibernate.Query;
+import org.hibernate.SessionFactory;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+public class TestHQLShowAll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
