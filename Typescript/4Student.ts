@@ -1,0 +1,24 @@
+export class Student{
+    stdID:number= 123;
+    stdName:string="john";
+    StdClass:number=2;
+
+    constructor(stdid:number , stdname:string , stdclass:number){    
+            this.stdID=stdid;
+            this.stdName=stdname;    
+            this.StdClass=stdclass;
+    }
+
+     display() {      
+          console.log(this.stdID);    
+          console.log(this.stdName);    
+      }
+}
+var s1= new Student(234, "rao" , 5);
+var s2= new Student(123, "abc" , 2);
+var s3= new Student(456, "mohan" , 1);
+var s4= new Student(789, "sohan" , 9);
+s1.display();
+s2.display();
+s3.display();
+s4.display();
